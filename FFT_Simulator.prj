@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1249637893" file="D:\Desktop\Code_and_stm\FFT_MATLAB\FFT_Simulator.prj" location="D:\Desktop\Code_and_stm\FFT_MATLAB" name="FFT_Simulator" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="2763209278" file="D:\Desktop\Code_and_stm\FFT_MATLAB\FFT_Simulator.prj" location="D:\Desktop\Code_and_stm\FFT_MATLAB" name="FFT_Simulator" target="target.mlapps" target-name="打包为 App">
     <param.appname>FFT_Simulator</param.appname>
     <param.authnamewatermark>Edwards</param.authnamewatermark>
     <param.email>1301536870@qq.com</param.email>
@@ -8,8 +8,8 @@
     <param.icons />
     <param.summary>可以用于简单的FFT仿真运算，为算法的选择和最优情况提供了方便，后续将加入新功能，敬请期待</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\13015\AppData\Local\Temp\tp775c5390_2c83_4077_b77d_327ce4cf2698.png</param.screenshot>
-    <param.version>1.0</param.version>
+    <param.screenshot>C:\Users\13015\AppData\Local\Temp\tpea9de131_c9ff_4e75_a5f9_3f1398b696b2.png</param.screenshot>
+    <param.version>1.1</param.version>
     <param.products.name>
       <item>MATLAB</item>
     </param.products.name>
@@ -26,7 +26,6 @@
       <param.icon />
       <param.icons />
       <param.description />
-      <param.version />
       <param.platforms />
       <param.output />
     </unset>
