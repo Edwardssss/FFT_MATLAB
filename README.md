@@ -1,4 +1,6 @@
 # FFT_MATLAB小文档
+## 使用说明
+打开MATLAB，直接双击那个FFT_Simulator.mlappinstall，就可以安装APP到MATLAB上了（我的MATLAB的版本是**R2021a**，版本太老好像会不太适配，虽然库函数应该是一样的）
 ## 当前版本功能说明
 + 可以仿照stm32采样进行FFT仿真
 + 支持最多6通道信号（可调幅值，频率以及相位）
