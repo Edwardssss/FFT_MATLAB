@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2763209278" file="D:\Desktop\Code_and_stm\FFT_MATLAB\FFT_Simulator.prj" location="D:\Desktop\Code_and_stm\FFT_MATLAB" name="FFT_Simulator" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="1556053482" file="D:\Desktop\Code_and_stm\FFT_MATLAB\FFT_Simulator.prj" location="D:\Desktop\Code_and_stm\FFT_MATLAB" name="FFT_Simulator" target="target.mlapps" target-name="打包为 App">
     <param.appname>FFT_Simulator</param.appname>
     <param.authnamewatermark>Edwards</param.authnamewatermark>
     <param.email>1301536870@qq.com</param.email>
@@ -8,8 +8,8 @@
     <param.icons />
     <param.summary>可以用于简单的FFT仿真运算，为算法的选择和最优情况提供了方便，后续将加入新功能，敬请期待</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\13015\AppData\Local\Temp\tpea9de131_c9ff_4e75_a5f9_3f1398b696b2.png</param.screenshot>
-    <param.version>1.1</param.version>
+    <param.screenshot>C:\Users\13015\AppData\Local\Temp\tpef1751d4_51fe_4d1e_b788_30a722fe35d1.png</param.screenshot>
+    <param.version>1.2</param.version>
     <param.products.name>
       <item>MATLAB</item>
     </param.products.name>
@@ -20,14 +20,13 @@
       <item>9.10</item>
     </param.products.version>
     <param.platforms />
-    <param.output>${PROJECT_ROOT}</param.output>
+    <param.output>D:\Desktop</param.output>
     <param.guid>3d78c650-b0a8-48cc-a69f-aefa91ee139a</param.guid>
     <unset>
       <param.icon />
       <param.icons />
       <param.description />
       <param.platforms />
-      <param.output />
     </unset>
     <fileset.main>
       <file>${PROJECT_ROOT}\FFT.mlapp</file>
@@ -36,7 +35,7 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="D:\Desktop\Code_and_stm" name="FFT_MATLAB" optional="false">D:\Desktop\Code_and_stm\FFT_MATLAB</file>
+      <file location="D:\" name="Desktop" optional="false">D:\Desktop</file>
     </build-deliverables>
     <workflow />
     <matlab>
