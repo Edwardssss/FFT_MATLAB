@@ -5,13 +5,14 @@ Fs=50;%采样率
 f1=15;
 f2=20;
 t = 0:1/Fs:10-1/Fs; %500个点
-x = sin(2*pi*f1*t) + sin(2*pi*f2*t);
-figure;
+rand_signal = rand(1,500);
+x = sin(2*pi*f1*t) + sin(2*pi*f2*t) + rand_signal;
+figure(1);
 plot(t,x);
 y = fft(x); 
 %将横坐标转化，显示为频率f= n*(fs/N)
 f = (0:length(y)-1)*Fs/length(y);
-figure;
+figure(2);
 plot(f,abs(y));
 title('Magnitude');
 %该变换还会生成尖峰的镜像副本，该副本对应于信号的负频率。
@@ -19,6 +20,6 @@ title('Magnitude');
 n = length(x);                         
 fshift = (0:n/2-1)*(Fs/n);
 yshift = fftshift(y);
-figure;
+figure(3);
 fft_abs = abs(yshift);
 plot(fshift,fft_abs(251:500));
